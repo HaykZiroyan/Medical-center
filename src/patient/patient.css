@@ -1,0 +1,101 @@
+.samerow {
+    display: inline-flex;
+    justify-content: center;
+    
+    /* padding-left: 60px; */
+}
+.patienttop {
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.medicallist {
+    margin-top: 20px;
+}
+.patientnews {
+    width: 66%;
+}
+.samerowelem {
+    border-right: 1px solid #cbcbcb;
+    width: 33%;
+    padding-left: 20px;
+}
+.samerowelem p {
+    width: 88%;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    margin-top: .5rem;
+}
+.samerowelem a {
+    color: #0078bf;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.samerowelem a:hover {
+    text-decoration: underline;
+}
+
+.patientupdates {
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 22%;
+    
+}
+.patientupdatescomp {
+    width: 20%;
+}
+.patientupdatescomp img {
+    width: 50%;
+}
+.patientupdateselem {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.patientupdateselemimg {
+    width: 27%;
+}
+.patientupdateselemimg img {
+    width: 100%;
+    height: 120px;
+}
+
+.patientupdatetitles {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5a5e61;
+}
+
+.patientlinkdate {
+    width: 60%;
+    margin-left: 15px;
+}
+
+.patientupdatelinks {
+    font-size: 17px;
+    margin-bottom: .25rem !important;
+    line-height: 1.2;
+    color: #0078bf;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+}
+.patientupdatedate {
+    font-size: 15px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 1.5;
+}
+
+.updatebut {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}

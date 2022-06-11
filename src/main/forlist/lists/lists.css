@@ -1,0 +1,48 @@
+.img {
+    width: 90px;
+}
+
+.titles {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #212529;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #006991;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
+    color: #fff ;
+    font-size: .9rem;
+    line-height: 1.6;
+}
+
+.mores {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #5a5e61;
+}
+
+.links {
+    text-decoration: none;
+    color: #006a92;
+    margin-right: 3px;
+    font-size: 17px;
+    
+}
+.doc-pacient {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.coles {
+    width: 42.3%;
+}

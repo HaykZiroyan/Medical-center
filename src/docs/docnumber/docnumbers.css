@@ -1,0 +1,26 @@
+.doclist {
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+.elemplace {
+  position: relative;
+}
+.elements {
+  position: relative;
+  display: none;
+}
+.shows {
+  display: flex;
+  justify-content: space-between;
+}
+/* .leftpart {
+  width: 60%;
+  display: inline-block;
+}
+.rigthpart {
+ width: 30%;
+} */
+.docpages {
+  display: flex;
+  flex-direction: row;
+}

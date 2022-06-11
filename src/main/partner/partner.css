@@ -1,0 +1,25 @@
+.partnersarea {
+    position: relative;
+}
+.partnerlist {
+    display: none;
+}
+.parts {
+    margin: 0 15px;
+}
+.bb {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.clicks {
+    height: 17px;
+    width: 17px;
+    background-color:  #6cb2eb;
+    border-radius: 50%;
+    margin: 0 2px;
+    display: inline-block;
+}
+.clicked {background-color: #006991;}
+.uper {
+    text-transform: uppercase;
+}

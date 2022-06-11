@@ -1,0 +1,28 @@
+.slidesimage {
+    display: none;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    z-index: -2;
+    height: 100%;
+}
+.ulCenter {
+    justify-content: center;
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+.lis {
+    background-color: #7EC03D;
+}
+.borders {
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    list-style: none;
+    display: inline-block;
+    margin: 6px 6px 0;
+    cursor: pointer;
+    border: 1px solid #fff;
+}

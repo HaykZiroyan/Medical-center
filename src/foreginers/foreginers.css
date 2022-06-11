@@ -1,0 +1,53 @@
+.foreginslide {
+    display: none;
+    width: 100%;
+    height: 280px;
+}
+.shows {
+    display: block;
+}
+.slidediv {
+    background-color: white;
+    display: inline-block;
+    margin-left: 4vw;
+    margin-top: 100px;
+    padding: 15px;
+}
+.foregintitle {
+    color: #0078bf;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 19px;
+}
+.inlinebreack {
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+.foregincontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.forginleft {
+    width: 67%;
+    padding: 0 15px;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #212529;
+    text-align: left;
+}
+.secondimg {
+    width: 100%;
+}
+.forginrigth {
+    /* display: inline-block; */
+    width: 33.5%;
+}
+#first {
+    display: none;
+}
+#second {
+    display: none;
+}

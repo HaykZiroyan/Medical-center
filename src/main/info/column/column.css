@@ -1,0 +1,26 @@
+.buttons {
+    text-decoration: none;
+    background-color: #fff;
+    color: #0078bf;
+    text-transform: uppercase;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+}
+.cols {
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+.text1 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.text2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}

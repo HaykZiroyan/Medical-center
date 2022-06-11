@@ -1,0 +1,13 @@
+.nav-item {
+    list-style-type: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover {
+    color: #6cb2eb;;
+}
+.uper {
+    text-transform: uppercase;
+}

@@ -1,0 +1,96 @@
+
+.buttonPlace {
+    margin-top: 100px;
+    width: 100%;
+}
+.buts {
+    margin-left: 2%;
+    width: 25%;
+}
+.hide {
+    display: none;
+}
+.arcanc {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #0078bf;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.arcanc img {
+    margin: 10px 1vw 10px .7vw;
+}
+
+.logo {
+    float: left;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.texts1 {
+    color: #5a5e61; 
+    margin-bottom: 0;
+}
+.texts2 {
+    color: #0078bf;
+}
+.contshide {
+    display: none;
+    border-radius: 34px;
+    position: absolute;
+    z-index: 10;
+    top: 240px;
+    left: 36px;
+    background-color: white;
+    width: 26%;
+    padding-bottom: 20px;
+    min-height: 240px;
+}
+.gray {
+    color: gray;
+    position: absolute;
+    z-index: 11;
+    top: 20px;
+    left: 90%;
+    width: 14px;
+    height: 21px;
+}
+.searchs {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.dropdown {
+    width: 80%;
+    position: relative;
+    border: 1px solid #d0d0d0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.dropsown-btn {
+    padding: 8px;
+    background: white;
+    font-size: 13px;
+    color: #303030;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.dropdown-content {
+    position: absolute;
+    top: 110%;
+    padding: 10px;
+    background: #fff;
+    font-weight: 500;
+    width: 95%;
+    z-index: 100;
+    overflow-y: scroll;
+    height: 200px;
+}
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}

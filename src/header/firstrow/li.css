@@ -1,0 +1,24 @@
+.nav-item {
+    list-style-type: none;
+    display:inline-block;
+
+}
+.nav-link {
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-size: 14px;
+    padding: 9px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.uper {
+    text-transform: uppercase;
+    font-size: .8em;
+    line-height: 1.6;
+    font-weight: 620;
+    margin: 0 3px;
+    padding: .5rem .35rem;
+    letter-spacing: -1.1px;
+}

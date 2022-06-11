@@ -1,0 +1,52 @@
+.rows{
+    margin: 0 auto;
+    width: 85%;
+}
+.cols {
+    text-decoration: none;
+}
+.cols:hover {
+    text-decoration: underline;
+}
+.aboutus {
+    display: none;
+    background-color: #2981a3;
+    padding-bottom: 50px;
+}
+.col-img {
+    width: 100%;
+}
+.text-col {
+    width: 50%;
+    vertical-align: top;
+    padding: 0;
+    color: #fff;
+    /* display: inline-block; */
+}
+.abouttexts {
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.flex {
+    margin-top: -30px;
+    background-color: white;
+    line-height: 1.6;
+    color: #0078bf;
+}
+.flex div {
+    border: 1px solid #dfdbdb;;
+
+}
+.texted {
+ background-color: #2981a3;
+ color: white;
+}
+.titls {
+    font-size: 20px;
+    margin-bottom: 1vw;
+    line-height: 1.2;
+    margin-left: 15px;
+}
+

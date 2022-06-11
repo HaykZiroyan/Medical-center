@@ -1,0 +1,31 @@
+.doclist {
+    display: inline-block;
+    padding: .5rem 1rem;
+  }
+  .elemplace {
+    position: relative;
+  }
+  .elements {
+    position: relative;
+    display: none;
+  }
+  .showen {
+    display: block;
+  }
+  /* .leftpart {
+    width: 60%;
+    display: inline-block;
+  }
+  .rigthpart {
+   width: 30%;
+  } */
+  .docpages {
+    display: flex;
+    flex-direction: row;
+  }
+  .backcolor {
+    background-color: #006991;
+  }
+  .higher {
+    margin-top: 0px;
+  }

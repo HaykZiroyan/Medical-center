@@ -1,0 +1,16 @@
+.cont {
+    width: 88%;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed; /*Optional*/
+    border-spacing: 30px; /*Optional*/
+}
+.last {
+    margin-left: 7%;
+    font-size: 24px;
+    color: #0078bf;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}

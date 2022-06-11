@@ -1,0 +1,56 @@
+/* {
+    background-image: url("https://www.nairimed.com/file/gallery-15897492225ec1a5e6003d3.png)
+} */
+.images {
+    height: 340px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.elem {
+    height: 340px;
+    margin-top: 3vw;
+    width: 100%;
+    /* margin-top: 3vw; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.textes {
+    margin-left: 20px;
+    width: 562px;
+}
+.title {
+    font-size: 21px;
+    margin-top: 20px;
+    color: #0078bf;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+.texts {
+    font-size: 15px;
+    margin-top: 2vw;
+    font-weight: 700;
+    line-height: 1.6em;
+    color: #5a5e61;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.more {
+text-decoration: none;
+color: #fff;
+background-color: #006991;
+text-transform: uppercase;
+padding: .375rem 2vw;
+line-height: 1.6;
+border: 1px solid transparent;
+border-radius: 20px;
+font-size: .9rem;
+
+
+
+}
+.more:hover {
+    color: #fff;
+}

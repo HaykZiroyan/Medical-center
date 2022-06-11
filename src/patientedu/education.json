@@ -1,0 +1,27 @@
+[
+    {"title": "Ախտանիշներ", "dropdown": [
+        {"text": "Ականջներում՝ աղմուկ", "link": "for-patient/view/symptoms/78/ականջներում՝-աղմուկ"},
+        {"text": "Արյան մեջ սպիտակուցի մակարդակի բարձրացում", "link": "for-patient/view/symptoms/87/արյան-մեջ-սպիտակուցի-մակարդակի-բարձրացում"}
+    ]},
+    {"title": "Ախտորոշում", "dropdown": [
+        {"text": "Աչք. ախտորոշման մեթոդներ` ամետրոպիա", "link": "for-patient/view/diagnoses/68/աչք.-ախտորոշման-մեթոդներ`-ամետրոպիա"},
+        {"text": "Աչք. գլաուկոմայի ախտորոշում", "link": "for-patient/view/diagnoses/69/աչք.-գլաուկոմայի-ախտորոշում"},
+        {"text": "Աչք. կատարակտի ախտորոշում", "link": "for-patient/view/diagnoses/70/աչք.-կատարակտի-ախտորոշում"},
+        {"text": "Աչք. ՈՒՁՀ", "link": "for-patient/view/diagnoses/66/աչք.-ուձհ"},
+        {"text": "Ավշային հանգույցներ. ՈԻՁՀ", "link": "for-patient/view/diagnoses/64/ավշային-հանգույցներ.-ոիձհ"},
+        {"text": "Աչք. ցանցաթաղանթի ախտաբանության ախտորոշում", "link": "for-patient/view/diagnoses/67/աչք.-ցանցաթաղանթի-ախտաբանության-ախտորոշում"}
+    ]},
+    {"title": "Առողջ ապրելակերպ", "dropdown": [
+       
+    ]},
+    {"title": "Առողջ սնունդ", "dropdown": [
+        {"text": "Ադամաթուզ", "link": "for-patient/view/healthyFood/10/ադամաթուզ"}
+    ]},
+    {"title": "Ծառայություններ", "dropdown": [
+       
+    ]},
+    {"title": "Հիվանդություններ", "dropdown": [
+        {"text": "Ակնե (կորյակային հիվանդություն)", "link": "for-patient/view/diseases/231/disease"},
+        {"text": "Աղիքի ինվագինացիա", "link": "for-patient/view/diseases/544/disease"}
+    ]}
+]

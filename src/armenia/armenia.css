@@ -1,0 +1,102 @@
+.armeniaslide {
+    display: none;
+    width: 100%;
+    height: 380px;
+    background-color: #006991;
+}
+.armeniaslide img {
+    height: 100%;
+}
+.shows {
+    display: block;
+}
+.rigthside {
+    position: absolute;
+    z-index: 2;
+    right: -15px;
+    height: 380px !important;
+}
+.arm  {
+    list-style-type: none;
+    border-radius: 50%;
+    border: 2px solid #D8D8D8;
+    height: 17px;
+    width: 17px;
+    /* position: relative; */
+    bottom: -10px;
+    margin-bottom: 20px;
+    margin: 2px;
+    position: absolute;
+    z-index: 3;
+    top: 615px;
+}
+.armli {
+    border: 2px solid #fff;
+
+}
+.leftrigth :nth-child(2) {
+    left: 51.5%;
+}
+.leftrigth :nth-child(1) {
+    left: 50%;
+}
+
+.armtexts {
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+}
+.armtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    color: #fff !important;
+    line-height: 1.2;
+}
+.armtext {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff !important;
+    font-weight: 700;
+}
+.armtopone {
+    margin-left: 50px;
+    transform: translateY(38%);
+}
+.armtoptwo {
+    height: auto;
+    position: absolute;
+    top: 63%;
+}
+
+.elemcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    padding-bottom: 60px;
+}
+.aboutelem {
+    width: 23%;
+    height: 280px;
+}
+.aboutelemimg {
+    width: 100%;
+    height: 100%;
+}
+.aboutelemtitle {
+    position: absolute;
+    color: #0078bf;
+    box-shadow: -4px 1px 9px 4px rgba(0,0,0,.43);
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 40px;
+    width: 17%;
+    bottom: -360px;
+    margin-left: 4%;
+
+}
+.nounderline {
+    text-decoration: none;
+}

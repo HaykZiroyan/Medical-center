@@ -1,0 +1,51 @@
+.medelem {
+    width: 21%;
+    display: inline-block;
+}
+.medimg {
+    width: 100%;
+}
+.medlink {
+    background-color: white;
+}
+.medelemtitle {
+    position: relative;
+    bottom: 20px;
+    left: 10%;
+    width: 90%;
+    background-color: #fff;
+    padding: 30px 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 10;
+    margin-bottom: 10px;
+    box-shadow: -4px 1px 9px 4px rgba(0,0,0,.43);
+}
+
+.medelemtextss {
+    width: 67.8%;
+    display: inline-block;
+}
+.elemmids {
+    display: flex;
+    justify-content: center;
+}
+.allmed {
+    margin-top: 30px;
+}
+.rigthss {
+    margin-left: 30px;
+}
+.medelemtexttag {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+}
+.medtexttitle {
+    line-height: 1.6;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: bolder;
+}

@@ -1,0 +1,10 @@
+.middle :nth-child(2) .textes {
+    background-color: hsla(0,0%,100%,.7);
+    margin-left: 850px;
+}
+.middle :nth-child(1) .textes {
+    background-color: hsla(0,0%,100%,.7);
+}
+/* (2n) .textes {
+    
+}  */

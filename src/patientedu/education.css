@@ -1,0 +1,9 @@
+.eduhide {
+    display: none;
+}
+.edushow {
+    display: block;
+}
+.eduslidetitle{
+    display: inline-block;
+}

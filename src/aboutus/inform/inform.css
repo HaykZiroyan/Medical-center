@@ -1,0 +1,19 @@
+.image {
+    width: 80px;
+    margin-bottom: 1vw;
+}
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0078bf;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.txt {
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}

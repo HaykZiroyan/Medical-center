@@ -1,0 +1,49 @@
+.teams {
+    width: 87%;
+    margin: 0 auto;
+}
+.aboutteam {
+    width: 50%;
+}
+.teamimg {
+    width: 100%;
+}
+.tits {
+    font-size: 20px;
+    color: #5a5e61;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    margin-top: 50px;
+}
+.txtinf {
+    margin-bottom: 1rem;
+}
+.teames {
+    text-decoration: none;
+}
+.teames:hover  {
+    text-decoration: underline;
+}
+.team-div {
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.teamslide {
+    display: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 86%;
+}
+.teamrow {
+    margin-top: 50px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.teamchange {
+    color: #006991;
+}

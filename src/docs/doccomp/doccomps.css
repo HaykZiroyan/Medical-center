@@ -1,0 +1,32 @@
+.doccomp {
+    width: 22.77%;
+    display: inline-block;
+    /* margin: 0 15px; */
+    border-radius: 8px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.75);
+    margin-bottom: 5vw;
+}
+.docimg {
+    width: 100%;
+    border-radius: 8px;
+    z-index: 2;
+    position: relative;
+    top: -10px;
+    height: 270px;
+}
+.docbords {
+    position: relative;
+    z-index: 3;
+    top: -50px;
+    margin-left: 15px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.75);
+    border-radius: 10px;
+}
+.docname {
+    font-size: 20px;
+    line-height: 1.2;
+    width: 81%;
+}
+.sociallogo {
+    width: 20px;
+}
