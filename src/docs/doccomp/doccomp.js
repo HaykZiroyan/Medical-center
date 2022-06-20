@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import "./doccomps.css"
 import Docnums from "../docnumber/docnumbers"
 
-function Doccomp({data}) {
+function Doccomp({data, space}) {
 
     return (
-        <div className="doccomp">
+        <div className={space == "opinion" ? "doccomp opinoinwidth" : "doccomp"}>
             <img src={data.image} className="docimg" />
             <div className="docbords">
                 <div className="docname">

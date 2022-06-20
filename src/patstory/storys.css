@@ -1,0 +1,91 @@
+.storyrow {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.storyleft {
+    width: 66%;
+}
+.storyrigth {
+    width: 33%;
+}
+.mostread {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5a5e61;
+    line-height: 1.6;
+}
+.storyelem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
+.storyelemimg {
+    width: 39%;
+    border-radius: 8px;
+    height: 297px;
+}
+.elemstorytxts {
+    width: 56.2%;
+}
+.elemstorytitle {
+    color: #0078bf;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+.elemstorytitle:hover {
+    text-decoration: underline;
+}
+.elemstorytext {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    margin-top: 20px;
+}
+.elemstorydate {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+}
+.elemstorylinksbottn {
+    color: #0078bf;
+    text-decoration: none;
+    text-transform: uppercase !important;
+}
+
+.mostreadstoryrigth {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.storyelemimgrigth {
+    width: 28%;
+    height: 120px;
+}
+.elemstorylinkrigth {
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.2;
+    color: #0078bf;
+    font-size: 17px;
+}
+.elemstorylinkrigth:hover {
+    text-decoration: underline;
+}
+.elemstorytxtsrigth {
+    width: 62%;
+    margin-left: 15px;
+}
+.storyelemtextrigth {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 15px;
+    border-radius: 8px;
+}

@@ -29,6 +29,7 @@
 .foregincontainer {
     display: flex;
     justify-content: space-between;
+    margin-top: -80px;
 }
 .forginleft {
     width: 67%;
@@ -37,6 +38,7 @@
     font-weight: 400;
     color: #212529;
     text-align: left;
+    line-height: 2em;
 }
 .secondimg {
     width: 100%;
@@ -45,9 +47,48 @@
     /* display: inline-block; */
     width: 33.5%;
 }
-#first {
+.foreginslides {
     display: none;
 }
-#second {
-    display: none;
+.foreginslides p {
+    margin-bottom: 1rem;
+}
+.shows {
+    display: block;
+}
+.mfa {
+    float: right;
+}
+.foreginslidettwo {
+    color: #0078bf;
+    font-size: .9rem;
+    font-weight: 400;
+    padding: 3px 2px 3px 15px;
+    margin-bottom: 10px;
+}
+.foreginslidettwo img {
+    margin-right: 5px;
+}
+.foreginhelpfulinfo {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.125rem;
+    padding-left: 13px;
+}
+.infoelem {
+    line-height: 2em;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #0078bf;
+}
+.infoelem img {
+    margin: 0 10px;
+    margin-top: -5px;
+}
+.infoelem a {
+    text-decoration: none;
+}
+.infoelem a:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,29 @@
+[
+    {"image": "/newsleft/1.png", "title": "Կլինիկական դեպք. թունավոր խպիպի վիրահատական բուժում", "link": "klinikakan-depq-tunavor-khpipi-virahatakan-buzhum", "text": "«Նաիրի» ԲԿ էնդոկրինոլոգիական ծառայության էր դիմել 31 տարեկան տղամարդ, որի մոտ առկա էր արտահայտված մեծ չափերի հասնող վահանաձև գեղձ, որն առաջացնում էր պարանոցի անհամաչափություն․․․", "date": "31 Մայիս 2022", "prof": [
+        {"profname": "endokrinologia", "proflink": "services/endokrinologia"}
+    ], "docinfo": [
+        {"docname": "Արամ Սամվելի Չոմոյան", "doclink": "doctors/98"}
+    ]},
+    {"image": "/newsleft/2.png", "title": "Վահանաձև գեղձի պունկցիոն բիոպսիա", "link": "vahanadzev-geghdzi-punktsion-biopsia", "text": "Վահանաձև գեղձի բարակ ասեղային պունկցիոն բիոպսիան (ԲԱՊԲ) կիրառվում է` պարզելու նույն գեղձում հանգուցավոր գոյացությունների բնույթը...", "date": "26 Մայիս 2022", "prof": [
+        {"proflink": "services/glkhi-ev-paranotsi-virabuzhutyun", "profname": "Գլխի և պարանոցի վիրաբուժություն"}
+    ], "docinfo": [
+        {"docname": "Արամ Գրիգորի Բադալյան", "doclink": "doctors/93"}
+    ]},
+    {"image": "/newsleft/3.png", "title": "Կլինիկական դեպք. համալիր բուժում՝ արտահայտված դրական արդյունքով ", "link": "klinikakan-depq-hamalir-buzhum-artahaytvats-drakan-ardyunqov", "text": "Հաշվի առնելով հիվանդության տարածվածության աստիճանը՝ բուժումը իրականացվեց մի քանի փուլով․․․", "date": "26 Մայիս 2022", "prof": [
+        {"profname": " Քիմիաթերապիա", "proflink": "services/qimiaterapia"}
+    ], "docinfo": [
+        {"docname": "Լևոն Գրիգորիի Բադալյան", "doclink": "doctors/160"}
+    ]},
+    {"image": "/newsleft/4.png", "title": "Համատեղ վիրահատություններ՝ ուռուցքաբան-գինեկոլոգ և պլաստիկ վիրաբույժ", "link": "hamategh-virahatutyunner-urutsqaban-ginekolog-ev-plastik-virabuyzh", "text": "Ժամանակակից բժշկության մեջ ուռուցքով հիվանդին միայն ուռուցքաբանի կողմից բուժելը բավականին բարդ խնդիր է: Ինչո՞ւ․․․", "date": "13 Մայիս 2022", "prof": [
+        {"profname": " Գինեկոլոգիա և կնոջ առողջություն", "proflink": "services/ginekologia-ev-knoj-aroghjutyun"},
+        {"profname": "Էսթետիկ և պլաստիկ վիրաբուժություն", "proflink": "services/estetik-ev-plastik-virabuzhutyun"}
+    ], "docinfo": [
+        {"docname": "Աննա Մովսեսի Սարգսյան", "doclink": "doctors/106"},
+        {"docname": "Արտեմ Ստեփանյան", "doclink": "doctors/158"}
+    ]},
+    {"image": "/newsleft/5.png", "title": "Կլինիկական դեպք. երկկողմանի գոնարթրոզ՝ ծնկահոդերի արթրոզ", "link": "klinikakan-depq-erkkoghmani-gonartroz-tsnkahoderi-artroz", "text": "Պացիենտը դիմել էր «Նաիրի» բժշկական կենտրոն` նստասալյակի օգնությամբ, ծանրագույն ցավերով, շարժումների խիստ սահմանափակումով․․․", "date": "03 Մայիս 2022", "prof": [
+        {"profname": "Օրթոպեդիա և վնասվածքաբանություն, «Կոքսա» կլինիկա", "proflink": "services/ortopedia-ev-vnasvatsqabanutyun-koqsa-klinika"}
+    ], "docinfo": [
+        {"docname": "Հրաչյա Գևորգի Հարությունյան", "doclink": "doctors/130"}
+    ]}
+]

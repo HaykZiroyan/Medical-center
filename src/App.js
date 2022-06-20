@@ -38,6 +38,14 @@ import Apply from "./apply/apply"
 
 import Patientedu from "./patientedu/patientedu"
 
+import Getus from "./getus/getus"
+
+import Patstory from "./patstory/patstory"
+
+import Secondopinion from "./opinion/opinion"
+
+import Galleryvideo from "./Gallery/galleryvideo"
+
 function App() {
   
   return (
@@ -60,12 +68,13 @@ function App() {
 
             <Route path="/gallery" element={ <Gallery />} />
             <Route path="/gallery/images" element={ <GalleryImgs />} />
+            <Route path="/gallery/videos" element={ <Galleryvideo />} />
 
-            {
+            {/* {
               gallerys.map((elem) => {          
-                return <Route path={`/gallery/images/${elem.link}`} element={ <p>ok</p> } />
+                return <Route path={`/gallery/images/${elem.link}`} element={ <Subgalleryimg data={elem.link} /> } />
               }) 
-            }
+            } */}
 
 
             <Route path="/payment" element={ <Generals />} />
@@ -86,6 +95,12 @@ function App() {
             <Route path="/foreginer" element={ <Foreginers />} />
             
             <Route path="/why-apply-to-us" element={ <Apply />} />
+
+            <Route path="/how-to-get-us" element={ <Getus />} />
+
+            <Route path="/patient-stories" element={ <Patstory />} />
+            
+            <Route path="/second-opinion" element={ <Secondopinion />} />
             {/* why-apply-to-us */}
         
         </Routes>

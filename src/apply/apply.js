@@ -43,13 +43,22 @@ class Apply extends Component {
                             </div>
                         ))}
                     </div>
-                
-                    <center className="apllycenter">
-                        <p>Կարևոր փաստաթղթեր</p>
-                        <a href="#">Գիտական և գործնական</a>
-                    </center>
                 </div>
-
+                    <center className="apllycenter">
+                        <p className="applytitles">Կարևոր փաստաթղթեր</p>
+                        <a href="#" className="applylinks">Գիտական և գործնական</a>
+                    </center>
+                    <p className="getustitle">«Նաիրի» բժշկական կենտրոն</p>
+                    <div className="apply">
+                        <div>                            <p className="getustext">«Նաիրի» բժշկական կենտրոնի գործունեության հիմնական նպատակը միջազգային չափանիշներին համապատասխան ախտորոշման և բուժման ապահովումն է:</p>
+                            <p className="getustext">Աշխարհի լավագույն կլինիկաների և միջազգային ընկերությունների հետ համագործակցության շնորհիվ` կենտրոնը շարունակում է ընդլայնել իր հնարավորությունները: Արդյունքում, հարմարավետ պայմաններում, պացիենտներին մատուցվում է բազմապրոֆիլ բժշկական ծառայություն:</p>
+                            <p className="getustext">Մենք բարելավում ենք բժշկական սպասարկման ծառայությունների որակը` սարքերի արդիականացման, նոր մեթոդների ներդրման միջոցով:</p>
+                            <p className="getustext">Մենք հիշում ենք ՙխանդավառություն է պետք՚ արտահայտության բուն իմաստը և կատարում ենք մեր աշխատանքը նույն կերպ, որով առաջին անգամ ոգեշնչվել ենք` առողջապահության ոլորտն ընտրելիս:</p>
+                        </div>
+                        <div>
+                            <iframe src="https://www.youtube.com/embed/f03YodxQpmA?&amp;wmode=opaque" allowfullscreen="allowfullscreen" className="youtubelink" width="640" height="360" frameborder="0"></iframe>
+                        </div>
+                    </div>
 
             </div>
 

@@ -37,7 +37,9 @@ class Top extends Component {
             "for-patient",
             "for-doctor",
             "faq",
-            "foreigners"
+            "foreigners",
+            "how-to-get-us",
+            "why-apply-to-us"
         ]
     }
 

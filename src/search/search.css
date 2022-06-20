@@ -1,0 +1,17 @@
+.searchnews {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+.searchtitle, .searchdate, .searchprof {
+    width: 22.8%;
+    margin: 0 15px;
+    border: 1px solid #006a92;
+    border-radius: 20px;
+    padding: .375rem .75rem;
+    background-color: white;
+}
+.srchimg {
+    width: 14px;
+    height: 14px;
+}

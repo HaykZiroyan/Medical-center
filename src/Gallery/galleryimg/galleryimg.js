@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Link } from 'react-router-dom';
 import galleryPics from "../gallery-pics.json"
-const galleryPicsnews = []
+import Doublesub from "./doublesub/doublesub"
+// const galleryPicsnews = []
+import Subgallery from "../subgallery/subgallery"
+import { render } from 'react-dom';
 
-function GalleryImgs() {
-        
+class GalleryImgs extends Component {
+
+
+    render () {
+        var start
+        const newgallery = new Array
+        for (var i = 0; i < galleryPics.length; i++) {
+            newgallery[i] = galleryPics.splice(0, 4)
+        }
+        if (galleryPics.length%4 == 0) {
+            start = galleryPics.length - 4
+        } else {
+            start = galleryPics.length - (galleryPics.length%4)
+        }
+        var last = galleryPics.slice(start, galleryPics.length)
+
+        newgallery.push(last)
+        console.log(newgallery)
         return (
             <div className="bgc galleryboth">
                 <a href="/" className="ttl">Գլխավոր</a>
@@ -12,30 +31,20 @@ function GalleryImgs() {
                 <a href="/gallery" className="ttl"> Տեսադարան</a>
                 <p>/ Լուսանկարներ</p>
                 <p className="ttls">Լուսանկարներ </p>
-            {
-                galleryPics.map((elem, index) => {
-                        if (!galleryPicsnews[Math.floor(index/4)]) { galleryPicsnews.push([]) }
-                        if (!galleryPicsnews[Math.floor(index/4)].includes(elem)) {galleryPicsnews[Math.floor(index/4)].push(elem)}
-                    }),
-
-                galleryPicsnews.map((elem) => {
-                   return <div className="doccopmrow">
-                       {elem.map((elems) => {
-                            return <div className="picselem">
-                                <img src={elems.image}  />
-                                <Link to={elems.link} className="">{elems.title}</Link>
-                            </div>
-                       })}
-                   </div>
-
-                            
-                })
-            }
                 
-                {console.log(galleryPicsnews)}
+                {
+                    newgallery.map((elem) => {
+                        return <div className="galleryrows">
+                                    {elem.map((elements) => {
+                                        return <Doublesub data={elements} />
+                                    })}
+                                </div>
+                    })
+                }
+
             </div>
         )
     
-
+    }
 }
 export default GalleryImgs

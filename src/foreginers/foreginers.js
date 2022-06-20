@@ -4,7 +4,7 @@ import "./foreginers.css"
 
 class Foreginers extends Component {
     a = 100
-    forginid = "first"
+    forginid = 0
     render() {
         const getids = (id) => {
                 document.getElementById(id).classList.add("shows")
@@ -12,7 +12,10 @@ class Foreginers extends Component {
                 this.a = id
         }
         const foregincontid = (id) => {
+            document.getElementById(id).classList.add("shows")
+            document.getElementById(this.forginid).classList.remove("shows")
             this.forginid = id
+            console.log(this.forginid)
     }
         return (
             <div className="bgc">
@@ -42,7 +45,7 @@ class Foreginers extends Component {
                 
                 <div className="foregincontainer">
                     <div className="forginleft">
-                        <div id="first" className={this.forginid == "first" ? "shows" : ""}>
+                        <div id="0" className={this.forginid == 0 ? "foreginslides shows" : "foreginslides"}>
                             <p>Օտարերկրա պետություններում ՀՀ դիվանագիտական ներկայացուցչությունները եւ հյուպատոսական հիմնարկներն իրավասու են նոտարական կարգով վավերացնել ՀՀ-ում օգտագործման համար նախատեսված փաստաթղթերը: Կարող են օրինականացնել նաև օտարերկրյա պետություններում օգտագործելու համար նախատեսված այն փաստաթղթերը, որոնք առնչվում են ՀՀ քաղաքացիների հետ, ինչպես նաև օտարերկրյա քաղաքացիներին պատկանող այն փաստաթղթերը կամ դրանց պատճենները, որոնք վերաբերում են ՀՀ-ում նրանց գործունեությանն ու կեցությանը:</p>
                             <i>Դիվանագիտական ներկայացուցչությունները և հյուպատոսական հիմնարկները կատարում են հետեւյալ նոտարական գործողությունները.</i>
                             <ul>
@@ -56,16 +59,37 @@ class Foreginers extends Component {
                                 <li>հաստատում են փաստաթղթեր ներկայացնելու ժամանակը,</li>
                                 <li>ի պահ են ընդունում փաստաթղթեր:</li>
                             </ul>
-                            <p>Ծանոթություն</p>
+                            <p><strong>Ծանոթություն</strong></p>
                             <p>Նոտարական գործողությունների կատարման սակագներին կարող եք ծանոթանալ այստեղ:Նոտարական գործողությունների կատարման կարգի վերաբերյալ հավելյալ տեղեկություններ ստանալու նպատակով կարող եք կապվել Հայաստանի Հանրապետության մոտակա դիվանագիտական ներկայացուցչության կամ հյուպատոսական հիմնարկի (ցանկը տեսնելու համար սեղմել այստեղ) հետ:</p>
                         </div>
-                        <div id="second" className={this.forginid == "second" ? "shows" : ""}>
+                        <div id="1" className={this.forginid == 1 ? "foreginslides shows" : "foreginslides"}>
                             <img src="./foreginers/img.png" className="secondimg" />
                         </div>
+                        <p className="mfa">mfa.am</p>
                     </div>
                     <div className="forginrigth">
-                        <div onClick={() => {foregincontid("first")}}>Նոտարական ծառայություններ` արտերկրում</div>
-                        <div onClick={() => {foregincontid("second")}}>ՀՀ քաղաքացիություն ստանալու գործընթացը</div>
+                        <div onClick={() => {foregincontid(0)}} className="foreginslidettwo">
+                            <img src="./foreginers/right-arrow.png" />
+                            Նոտարական ծառայություններ` արտերկրում
+                        </div>
+                        <div onClick={() => {foregincontid(1)}} className="foreginslidettwo">
+                            <img src="./foreginers/right-arrow.png" />
+                            ՀՀ քաղաքացիություն ստանալու գործընթացը
+                        </div>
+                        <hr />
+                        <h5 className="foreginhelpfulinfo">Օգտակար հղումներ</h5>
+                        <div className="infoelem">
+                            <img src="./foreginers/right-arrow.png" />
+                            <a href="https://www.mfa.am/hy/free-consular/">Անվճար հյուպատոսական ծառայություններ</a>
+                        </div>
+                        <div className="infoelem">
+                            <img src="./foreginers/right-arrow.png" />
+                            <a href="https://www.mfa.am/hy/passport/">ՀՀ անձնագիր</a>
+                        </div>
+                        <div className="infoelem">
+                            <img src="./foreginers/right-arrow.png" />
+                            <a href="https://www.mfa.am/hy/visa/">Մուտքի արտոնագիր (վիզա)</a>
+                        </div>
                     </div>
                 </div>
             </div>

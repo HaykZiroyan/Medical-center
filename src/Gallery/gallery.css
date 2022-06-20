@@ -49,3 +49,35 @@
     color: black;
     margin: 0;
 }
+.imgrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.imgelem {
+    width: 50%;
+}
+
+.galleryrows {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.doublegallerypics {
+    width: 23.2%;
+}
+.doubleimg {
+    width: 100%;
+}
+.doublegalleryImgLinkdiv {
+    /* width: 105%; */
+    box-shadow: -4px 1px 9px 4px rgba(0,0,0,.43);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 700;
+    color: #0078bf;
+    background-color: #fff;
+    padding: 30px 60px;
+    margin-top: 160px;
+}
