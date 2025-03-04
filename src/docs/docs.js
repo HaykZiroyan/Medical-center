@@ -11,7 +11,7 @@ const Doctors = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/doctors')
+    axios.get('http://127.0.0.1:8000/api/doctors')
       .then(response => {
         setData(response.data);
       })
