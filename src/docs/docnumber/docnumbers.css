@@ -13,13 +13,38 @@
   display: flex;
   justify-content: space-between;
 }
-/* .leftpart {
-  width: 60%;
+.leftpart {
+  width: 70%;
   display: inline-block;
 }
 .rigthpart {
  width: 30%;
-} */
+ margin-top: 30px;
+}
+.doctorelem {
+  margin: 0 auto;
+  padding: 20px;
+}
+.seperate {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.seperate .details {
+  width: 40%;
+}
+.seperate .info {
+  width: 60%;
+}
+.profile, .docinfo {
+  display: inline-block;
+  width: 50%;
+  padding: 5px;
+}
+
+.profileimg {
+  width: 100%;
+}
 .docpages {
   display: flex;
   flex-direction: row;

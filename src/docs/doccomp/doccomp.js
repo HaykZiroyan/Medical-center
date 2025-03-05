@@ -4,10 +4,9 @@ import "./doccomps.css"
 import Docnums from "../docnumber/docnumbers"
 
 function Doccomp({data, space}) {
-
     return (
         <div className={space == "opinion" ? "doccomp opinoinwidth" : "doccomp"}>
-            {/* <img src={data.image} className="docimg" /> */}
+            <img src={data.profile} className="docimg" />
             <div className="docbords">
                 <div className="docname">
                     {window.location.href.includes("doctors") ? <Link to={data.id} >{data.name} </Link> : <a href={`doctors/${data.id}`}>{data.name}</a>} 
