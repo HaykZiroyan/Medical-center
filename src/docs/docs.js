@@ -1,68 +1,43 @@
 import React, { useState, useEffect } from 'react';
 import Doccomp from "./doccomp/doccomp";
 import "./docs.css";
-import docinfo from "./docsInfo.json";
 import Slides from "../main/slider/slides";
 import profs from "./profession.json";
 import axios from 'axios';
 
 const Doctors = () => {
-  const [docinfonew, setDocinfonew] = useState([]);
-  const [data, setData] = useState([]);
+  const [docInfo, setDocInfo] = useState([]);
+  const [formattedDocInfo, setFormattedDocInfo] = useState([]);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/doctors')
-      .then(response => {
-        setData(response.data);
-      })
-      .catch(error => {
+    const fetchDoctors = async () => {
+      try {
+        const response = await axios.get('http://127.0.0.1:8000/api/doctors');
+        setDocInfo(response.data);
+      } catch (error) {
         console.error(error);
-      });
+      }
+    };
+    fetchDoctors();
   }, []);
-
-//   const [data, setData] = useState([]);
-//   const [error, setError] = useState(null);
-//   const [loading, setLoading] = useState(false);
-
-//   useEffect(() => {
-//     const fetchData = async () => {
-//       setLoading(true);
-//       try {
-//         const response = await fetch('http://medcenter/doctors');
-//         const data = await response.json();
-//         setData(data);
-//       } catch (error) {
-//         setError(error);
-//       } finally {
-//         setLoading(false);
-//       }
-//     };
-//     fetchData();
-//   }, []);
 
   useEffect(() => {
     const formatDocInfo = () => {
+      if (!docInfo.length) return;
+
       const formattedDocInfo = [];
-      docinfo.forEach((elem, index) => {
+      docInfo.forEach((elem, index) => {
         const row = Math.floor(index / 4);
         if (!formattedDocInfo[row]) {
           formattedDocInfo[row] = [];
         }
         formattedDocInfo[row].push(elem);
       });
-      setDocinfonew(formattedDocInfo);
+      setFormattedDocInfo(formattedDocInfo);
     };
     formatDocInfo();
-  }, []);
+  }, [docInfo]);
 
-//   if (loading) {
-//     return <div>Loading...</div>;
-//   }
-
-//   if (error) {
-//     return <div>Error: {error.message}</div>;
-//   }
-  console.log("this is the fetch data", data);
   return (
     <div className="bgc">
       <a href="/" className="ttl">Գլխավոր</a>
@@ -78,7 +53,7 @@ const Doctors = () => {
         </button>
       </div>
       <div className="containerdoc">
-        {docinfonew.map((row, index) => (
+        {formattedDocInfo.map((row, index) => (
           <div key={index} className="doccopmrow">
             {row.map((doc, docIndex) => (
               <Doccomp key={docIndex} data={doc} />
